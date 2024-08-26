@@ -1,0 +1,23 @@
+#server:
+#  servlet:
+#    context-path: /api
+#  port: 8080
+#
+#spring:
+#  profiles:
+#    active: local
+#
+#  jpa:
+#    hibernate:
+#      ddl-auto: update
+#    generate-ddl: false
+#    show-sql: true
+#    properties:
+#      hibernate:
+#        format_sql: true
+#        dialect: org.hibernate.dialect.MySQLDialect
+#    open-in-view: off
+#  security:
+#    user:
+#      name: bb
+#      password: 123

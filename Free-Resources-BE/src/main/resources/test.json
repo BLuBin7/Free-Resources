@@ -1,0 +1,32 @@
+{
+  "id": 1,
+  "email": "exampl222e@example222.com",
+  "password": "password123",
+  "firstName": "John",
+  "lastName": "Doe",
+  "mobileNumber": "1234567890",
+  "role": "USER",
+  "firstLogin": true,
+  "tokens": [
+    {
+      "id": 101,
+      "token": "abc123token",
+      "tokenType": "BEARER",
+      "revoked": false,
+      "expired": false,
+      "user": {
+        "id": 1
+      }
+    },
+    {
+      "id": 102,
+      "token": "def456token",
+      "tokenType": "BEARER",
+      "revoked": false,
+      "expired": false,
+      "user": {
+        "id": 1
+      }
+    }
+  ]
+}
